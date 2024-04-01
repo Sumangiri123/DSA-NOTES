@@ -19,3 +19,12 @@ def Selection_sort(arr):
 arr = [5,8,1,6,2,4,3]
 # Print the sorted array by calling the 'Selection_sort' function.
 print(Selection_sort(arr))
+
+
+# Time Complexity : O(n^2) where n is the sixe of array -- Due to use of nested loops 
+# Space Complexity : O(1) -- As no external data structure is used in this code
+
+# Unstable Sorting -- As there is a chance of change in realtive position of same element
+
+# Comparisions directly proportional to n^2 -- Comparision taking Place inside nested loops
+# Swapping directly proportinal to n -- As Swapping happens inside i loop only
