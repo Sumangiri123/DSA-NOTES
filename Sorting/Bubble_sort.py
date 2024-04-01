@@ -12,7 +12,7 @@ def Bubble_sort(arr):
     return arr
 
 # Initialize an array with unsorted elements.
-arr = [5,8,1,6,2,4,3]
+arr = [5,9,1,6,2,4,3]
 # Print the sorted array by calling the 'Bubble_sort' function.
 print(Bubble_sort(arr))
 
@@ -24,3 +24,4 @@ print(Bubble_sort(arr))
 
 # Comparisions directly proportional to n^2
 # Swapping directly proportional to n^2
+
