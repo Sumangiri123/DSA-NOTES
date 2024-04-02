@@ -7,10 +7,10 @@ def sum_of_digits(n):
     # Recursive case: return the sum of the last digit of 'n' and the sum of the digits of 'n' excluding the last digit
     # This is achieved by using the modulo operator (%) to get the last digit and integer division (//) to remove the last digit
     # The function calls itself recursively with the remaining digits of 'n'
-    return (n % 10) + sum_of_digits(n // 10)
+    return ((n % 10) + sum_of_digits(n // 10))
 
 # Assign the value 123 to the variable 'n'
-n = 123
+n = 457
 # Print the result of calling the 'sum_of_digits' function with 'n' as the argument
 print(sum_of_digits(n))
 
