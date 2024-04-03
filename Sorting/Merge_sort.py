@@ -1,8 +1,8 @@
 # Function to perform merge sort on an array
 def merge_sort(arr):
     # Base case: if the array has 1 or 0 elements, it is already sorted
-    if len(arr) <= 1:
-        return arr
+    if len(arr) == 1:
+        return 
     # Find the middle index of the array
     mid = len(arr) // 2
     # Split the array into two halves
