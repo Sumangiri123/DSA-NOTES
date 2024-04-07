@@ -21,3 +21,7 @@ target = 5
 si = 0
 ei = len(arr) - 1
 print(binary_search(arr, si, ei, target))
+
+
+# Time Complexity :
+# Space Complexity :
