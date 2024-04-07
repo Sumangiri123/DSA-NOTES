@@ -21,6 +21,7 @@ def binary_search(arr, target):
     # If the target is not found, return the array itself
     return arr
 
+
 # Example usage
 arr = [1,2,3,4,5]
 target = 4
