@@ -35,3 +35,6 @@ class Solution(object):
 
 #   Best Case: O(1) - The space complexity is constant because the algorithm only uses a fixed amount of space to store the pointers and the target value.
 #   Worst Case: O(1) - The space complexity remains constant regardless of the size of the input array.
+
+# This binary search implementation is efficient for finding the index of a target number in a rotated sorted array, making it 
+# suitable for various programming problems that involve searching in sorted data structure.
