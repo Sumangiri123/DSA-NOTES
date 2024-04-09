@@ -33,3 +33,16 @@ class Solution(object):
 
         # If the target is not found, return -1
         return -1
+
+
+
+# Time Complexity:
+
+    # O(log n): The binary search algorithm has a logarithmic time complexity, where n is the number of items in the array. This is because with each iteration, the search space is halved.
+
+# Space Complexity:
+
+    # O(1): The space complexity is constant, as the algorithm uses a fixed amount of space to store the pointers and does not use any additional data structures that grow with the size of the input array.
+
+# This binary search implementation is efficient for finding the index of a target number in a rotated sorted array, making it 
+# suitable for various programming problems that involve searching in sorted data structures.
