@@ -25,5 +25,13 @@ class Solution(object):
         return -1
 
 
-# Time Complexity : O(n)
-# Space Complexity : O(1)
+# Time Complexity:
+
+#   Best Case: O(1) - This occurs when the target is at the middle of the array.
+#   Average Case: O(log n) - On average, the algorithm divides the search space in half with each iteration, leading to a logarithmic time complexity.
+#   Worst Case: O(log n) - Even in the worst case, the binary search algorithm performs well with a logarithmic time complexity.
+
+# Space Complexity:
+
+#   Best Case: O(1) - The space complexity is constant because the algorithm only uses a fixed amount of space to store the pointers and the target value.
+#   Worst Case: O(1) - The space complexity remains constant regardless of the size of the input array.
