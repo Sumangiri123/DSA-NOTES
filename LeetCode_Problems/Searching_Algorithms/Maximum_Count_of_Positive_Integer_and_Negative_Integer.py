@@ -15,3 +15,16 @@ class Solution(object):
 
         # Return the maximum count of positive or negative numbers
         return max(pos, neg)
+
+
+
+# Time Complexity:
+
+    # O(N): The time complexity is linear, where N is the number of items in the list. This is because the algorithm iterates through each element in the list once.
+
+# Space Complexity:
+
+    # O(1): The space complexity is constant, as the algorithm uses a fixed amount of space to store the counters for positive and negative numbers.
+
+# This solution is efficient for counting the maximum number of positive or negative integers in a list, making it suitable for 
+# various programming problems that involve analyzing the distribution of positive and negative numbers in a dataset.
