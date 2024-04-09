@@ -23,3 +23,7 @@ class Solution(object):
         
         # If the target is not found, return -1
         return -1
+
+
+# Time Complexity : O(n)
+# Space Complexity : O(1)
