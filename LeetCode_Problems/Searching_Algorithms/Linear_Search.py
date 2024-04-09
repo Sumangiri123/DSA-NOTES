@@ -12,11 +12,11 @@ class Solution(object):
 
 # Time Complexity:
 
-# O(N): The time complexity is linear, where N is the number of items in the list. This is because the algorithm iterates through each element in the list once.
+    # O(N): The time complexity is linear, where N is the number of items in the list. This is because the algorithm iterates through each element in the list once.
 
 # Space Complexity:
 
-# O(1): The space complexity is constant, as the algorithm uses a fixed amount of space to store the index and does not use any additional data structures that grow with the size of the input list.
+    # O(1): The space complexity is constant, as the algorithm uses a fixed amount of space to store the index and does not use any additional data structures that grow with the size of the input list.
 
 # This linear search algorithm is straightforward and effective for finding the index of a target number in a list. It's particularly
 # useful for small datasets or when the list is not sorted, as it does not require any preprocessing or sorting of the list
