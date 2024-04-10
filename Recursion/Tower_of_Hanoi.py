@@ -14,6 +14,7 @@ def tower_of_hanoi(n, s, d, a):
 print(tower_of_hanoi(4, 's', 'd', 'a'))
 
 
+
 # Time Complexity
 
     # The time complexity of the Tower of Hanoi algorithm is determined by the number of moves required to
@@ -28,7 +29,8 @@ print(tower_of_hanoi(4, 's', 'd', 'a'))
     # The space complexity of the Tower of Hanoi algorithm is determined by the maximum depth of the 
     # recursion tree, which is n. This is because the algorithm makes two recursive calls for each disk, 
     # and the depth of the recursion tree is equal to the number of disks. Each recursive call adds a level
-    #  to the recursion tree, and the maximum depth is reached when all disks are moved to the auxiliary peg. Therefore, the space complexity is O(n) 3.
+    # to the recursion tree, and the maximum depth is reached when all disks are moved to the auxiliary peg. 
+    # Therefore, the space complexity is O(n) 3.
 
 # In summary, the Tower of Hanoi algorithm has a time complexity of O(2^n) due to the exponential number of 
 # moves required to solve the puzzle, and a space complexity of O(n) due to the depth of the recursion tree.
